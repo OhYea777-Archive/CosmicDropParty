@@ -1,0 +1,24 @@
+name: CosmicDropParty
+version: 1.0
+authors: [OhYea777]
+main: com.ohyea777.cosmicdropparty.CosmicDropParty
+depend: [Votifier]
+
+commands:
+  dp:
+    aliases: [dropp,dparty,dropparty,cdp,cdropp,cdparty,cdropparty,cosmicdp,cosmicdropp,cosmicdparty,cosmicdropparty]
+
+permissions:
+  dp.*:
+    children:
+      dp.admin: true
+  dp.admin:
+    children:
+      dp.reload: true
+      dp.force: true
+      dp.player: true
+  dp.player:
+    default: true
+    children:
+      dp.toggle: true
+      dp.status: true

@@ -1,0 +1,54 @@
+{
+    "messages": {
+        "prefix": "&8[&3Cosmic Drop Party&8]&7",
+        "dpToggleOn": "%prefix% Toggled dp on!",
+        "dpToggleOff": "%prefix% Toggled dp off!",
+        "reload": "%prefix% Configuration reloaded!",
+        "dpBroadcast": "%prefix% Vote count has reached &b%votes%&7, enjoy your rewards! If you have not toggled dp, do &b/dp on&7 to get rewards next time!",
+        "dpBroadcastForced": "%prefix% Forced drop party, enjoy your rewards! If you have not toggled dp, do &b/dp on&7 to get rewards next time!",
+        "noPermission": "%prefix%&c You do not have permission to do that!",
+        "help": [
+            "%prefix% Help&8:",
+            "&8-&3]&7 To toggle dp off&8: &b/dp off",
+            "&8-&3]&7 To toggle dp on&8: &b/dp on",
+            "&8-&3]&7 To see the vote count&8: &b/dp status",
+            "&8-&3]&7 To reload the config&8: &b/dp reload",
+            "&8-&3]&7 For about&8: &b/dp about"
+        ],
+        "voteStatus": "%prefix% Vote count&8: &b%votes%&7!"
+    },
+    "votesToParty": 50,
+    "count": 5,
+    "items": [
+        {
+            "item": "{id: 310, Count: 1, tag: {ench: [{id: 0, lvl: 5}, {id: 34, lvl: 3}]}}"
+        },
+        {
+            "item": "{id: 311, Count: 1, tag: {ench: [{id: 0, lvl: 5}, {id: 34, lvl: 3}]}}"
+        },
+        {
+            "item": "{id: 312, Count: 1, tag: {ench: [{id: 0, lvl: 5}, {id: 34, lvl: 3}]}}"
+        },
+        {
+            "item": "{id: 313, Count: 1, tag: {ench: [{id: 0, lvl: 5}, {id: 34, lvl: 3}]}}"
+        },
+        {
+            "item": "{id: 276, Count: 1, tag: {ench: [{id: 16, lvl: 5}, {id: 20, lvl: 2}]}}"
+        },
+        {
+            "item": "{id: 279, Count: 1, tag: {ench: [{id: 16, lvl: 5}, {id: 20, lvl: 2}]}}"
+        },
+        {
+            "item": "{id: 49, Count: 64}"
+        },
+        {
+            "item": "{id: 7, Count: 64}"
+        },
+        {
+            "item": "{id: 383, Damage: 50, Count: 64}"
+        },
+        {
+            "item": "{id: 322, Damage: 1, Count: 64}"
+        }
+    ]
+}
